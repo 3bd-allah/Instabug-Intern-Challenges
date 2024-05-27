@@ -1,4 +1,4 @@
-﻿namespace Challenge3
+﻿namespace BinaryTreeArrayChallenge
 {
     internal class Program
     {
