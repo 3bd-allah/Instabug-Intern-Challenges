@@ -18,7 +18,6 @@ namespace Challenge1
 
             // create stream Writer object to print output to external file (output.txt)
             StreamWriter output = new StreamWriter("H:\\Instabug intern\\Instabug Intern\\Challenge1/output.txt");
-            output.WriteLine("hello world");
 
 
             while (lineStr != null)
@@ -39,6 +38,7 @@ namespace Challenge1
                 cap.RemoveRange(0, cap.Count);
 
             }
+            // to close the stream 
             output.Flush();
             output.Close();
 
